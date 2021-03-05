@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://oreo-king.github.io</id>
     <title>Oreo_King 的博客</title>
-    <updated>2021-03-05T14:04:34.933Z</updated>
+    <updated>2021-03-05T15:03:47.557Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://oreo-king.github.io"/>
     <link rel="self" href="https://oreo-king.github.io/atom.xml"/>
@@ -10,4 +10,37 @@
     <logo>https://oreo-king.github.io/images/avatar.png</logo>
     <icon>https://oreo-king.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Oreo_King 的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://oreo-king.github.io/post/guan-yu/</id>
+        <link href="https://oreo-king.github.io/post/guan-yu/">
+        </link>
+        <updated>2021-03-05T14:55:38.000Z</updated>
+        <content type="html"><![CDATA[<p>这是我的博客, 用 <code>Gridea</code> 做的, 尽管不知道原理是什么, 但是非常好用啊.</p>
+<p>为什么要搭建一个博客呢, 大约是觉得有一个 “自己” 的网站很酷吧, 但其实看域名就知道其实这个页面还是属于 <code>Github</code> 的. 不过前面不是还有 <code>Oreo-King</code> 是代表我的嘛😁.</p>
+<p>也没什么好 “关于” 的吧, 权把这里当成杂物库好了, 记录几个常用的网站好了, 有什么需要的以后再补充也好.</p>
+<hr>
+<ol>
+<li><a href="crosst.chat">十字街</a></li>
+<li><a href="note.ms/1">在线记事本</a></li>
+<li>没有了(°∀。)</li>
+</ol>
+<blockquote>
+<p>封面图使用的字体是「康熙字典体」, 使用繁体是因为只支持繁体. 而且繁体更有感觉.</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2021/03/05	小记]]></title>
+        <id>https://oreo-king.github.io/post/20210305-xiao-ji/</id>
+        <link href="https://oreo-king.github.io/post/20210305-xiao-ji/">
+        </link>
+        <updated>2021-03-05T14:45:04.000Z</updated>
+        <content type="html"><![CDATA[<p>Github 把某个叫 <code>master</code> 的仓库改名为 <code>main</code> 了, 现在旧域名 <code>qin-yuxuan.github.io</code> 应该已经全面失效了. 而且我以前的 Github 昵称确实太傻, 故今天在学校就准备把博客大翻新一下, 何况原博客的界面用了 Chic 主题之后已经完全崩坏了<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>⋯</mo><mo>⋯</mo></mrow><annotation encoding="application/x-tex">\cdots\cdots</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.31em;vertical-align:0em;"></span><span class="minner">⋯</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner">⋯</span></span></span></span></p>
+<p>开学已经两周, 同桌果然被换了(😗), Kevin 人挺好玩的, 不过就是有点吵, 现在换成了安静些的 Panda, 晚自习更专心了.</p>
+<p>这学期作业都有好好在做 (并不是全部, 有一些实在不喜欢的作业——对译——就只做了第一课的, 而且英语必修二的五三也不见了 <code>¯\_(ツ)_/¯</code>), 再不做作业的话真的就要被退学了.</p>
+<p>这几日在学校过得也更开心了, 是因为新同学的加入么? 总之感觉时间都被抓回来了, 不像上学期, 终日无所事事, 简直在浪费生命啊. 而且今早把川端康成的《睡美人》和《舞姬》都看完了, 故事很好, 但是结尾都有种突兀的结束之感, 有人说这是日本文学的所谓 “物哀”, 我都没怎么看过日本文学, 细想起来这大约是第一本吧.</p>
+<p>有时候在学校也会看到她 <code>(*/ω＼*)</code>,她看到我的时候会故意咳嗽引起注意呢, 感觉更温柔更漂亮了 (///<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ω</mi></mrow><annotation encoding="application/x-tex">\omega</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">ω</span></span></span></span>///). 希望你在九班也要积极向上啊! 学习的事也一定会越来越顺心的!</p>
+]]></content>
+    </entry>
 </feed>

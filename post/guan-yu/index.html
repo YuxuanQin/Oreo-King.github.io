@@ -1,9 +1,11 @@
+
+<!DOCTYPE html>
 <html>
   <head>
     
 <meta charset="utf-8" >
 
-<title>Oreo_King 的博客</title>
+<title>关于 | Oreo_King 的博客</title>
 <meta name="description" content="(°∀。)">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -14,6 +16,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://oreo-king.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -75,19 +83,64 @@
 </transition>
 
 
-        <div class="content-container">
+      <div class="content-container">
+        <div class="post-detail">
           
-          <div class="tags-container">
+            <div class="feature-container" style="background-image: url('https://oreo-king.github.io/post-images/guan-yu.png')">
+            </div>
+          
+          <h2 class="post-title">关于</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2021-03-05</span>
             
-              <a class="tag" href="https://oreo-king.github.io/tag/ZSSmELrI-/">其他</a>
-            
-              <a class="tag" href="https://oreo-king.github.io/tag/1Ae-3DtIq/">随记</a>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://oreo-king.github.io/tag/ZSSmELrI-/">
+                    其他
+                    
+                  </a>
+                
+              </span>
             
           </div>
+          <div class="post-content">
+            <p>这是我的博客, 用 <code>Gridea</code> 做的, 尽管不知道原理是什么, 但是非常好用啊.</p>
+<p>为什么要搭建一个博客呢, 大约是觉得有一个 “自己” 的网站很酷吧, 但其实看域名就知道其实这个页面还是属于 <code>Github</code> 的. 不过前面不是还有 <code>Oreo-King</code> 是代表我的嘛😁.</p>
+<p>也没什么好 “关于” 的吧, 权把这里当成杂物库好了, 记录几个常用的网站好了, 有什么需要的以后再补充也好.</p>
+<hr>
+<ol>
+<li><a href="crosst.chat">十字街</a></li>
+<li><a href="note.ms/1">在线记事本</a></li>
+<li>没有了(°∀。)</li>
+</ol>
+<blockquote>
+<p>封面图使用的字体是「康熙字典体」, 使用繁体是因为只支持繁体. 而且繁体更有感觉.</p>
+</blockquote>
 
+          </div>
         </div>
 
-        <div class="site-footer">
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://oreo-king.github.io/post/20210305-xiao-ji/">
+              <h3 class="post-title">
+                下一篇：2021/03/05	小记
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
   <div class="slogan">(°∀。)</div>
   <div class="social-container">
     
@@ -106,8 +159,8 @@
 </div>
 
 
-      </div>
-      <script type="application/javascript">
+    </div>
+    <script type="application/javascript">
 
 hljs.initHighlightingOnLoad()
 
@@ -122,7 +175,29 @@ var app = new Vue({
 
 
 
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
 
-    </div>
+      var gitalk = new Gitalk({
+        clientID: '3e547d5b2fdb5ebe705b',
+        clientSecret: 'ad36f0acf4a6b87f1fb5d0f796a70eda849d9d75',
+        repo: 'qin-yuxuan.github.io',
+        owner: 'qin-yuxuan',
+        admin: ['qin-yuxuan'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
   </body>
 </html>
