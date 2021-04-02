@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>2021/4/2 小记 | Oreo_King 的博客</title>
+<meta name="description" content="(°∀。)">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://oreo-king.github.io/favicon.ico?v=1617376021744">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://oreo-king.github.io/styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://oreo-king.github.io">
+        <img class="avatar" src="https://oreo-king.github.io/images/avatar.png?v=1617376021744" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://oreo-king.github.io">
+        <h1 class="site-title">Oreo_King 的博客</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">2021/4/2 小记</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2021-04-02</span>
+            
+          </div>
+          <div class="post-content">
+            <p>​		难得又有机会写一篇随记, 三月月考考得很差, 上周回家都没怎么用电脑, 这周趁着放清明假更新一下.</p>
+<p>​		Edge 的插件「IGG 谷歌访问助手」彻底无法访问了, 甚至已经被 Edge 插件商店给下架了, 其实挺好用的, 可惜矣. 不过说来也巧, 周四电脑课之后姚皇告诉我 SSRr / SSR 可以用, 今天就去 Github 和 Telegram 试着找了一下了一下<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>, 下载下来之后发现居然真的有用, 至少上 Google 没问题了, 维基大典也可以正常访问了 (不用看万维的广告真好).</p>
+<p>​		上周帮十字街修改了下 <a href="https://oreo-king.github.io/post/shi-zi-jie-xin-ren-zhi-bei/">新人指南</a>, 实际上主要内容都是 <code>Arwen</code> 撰写的, 不过排版实在是一言难尽 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>⋯</mo><mo>⋯</mo></mrow><annotation encoding="application/x-tex">\cdots\cdots</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.31em;vertical-align:0em;"></span><span class="minner">⋯</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner">⋯</span></span></span></span> 站长说高考之后做一次大更新, 他也表示过要加入私聊功能和移除 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>LaTeX</mtext></mrow><annotation encoding="application/x-tex">\rm\LaTeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord"><span class="mord text"><span class="mord textrm">L</span><span class="mspace" style="margin-right:-0.36em;"></span><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.68333em;"><span style="top:-2.904999em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord text"><span class="mord textrm sizing reset-size6 size3">A</span></span></span></span></span></span><span class="mspace" style="margin-right:-0.15em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord text"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span></span></span> 的意愿, 移除 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>LaTeX</mtext></mrow><annotation encoding="application/x-tex">\rm\LaTeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord"><span class="mord text"><span class="mord textrm">L</span><span class="mspace" style="margin-right:-0.36em;"></span><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.68333em;"><span style="top:-2.904999em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord text"><span class="mord textrm sizing reset-size6 size3">A</span></span></span></span></span></span><span class="mspace" style="margin-right:-0.15em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord text"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span></span></span> 的决定我很不喜欢. 对数学公式的支持是一个聊天室或者即时通讯软件的加分项, 移除公式并不是一个好决定.</p>
+<p>​		以前十字街有人说「某岛」云者, 一直不知道是啥玩意, 一查发现是 AcFun 之前的管理者建立的论坛——A 岛; 据说还有过「沉岛」事件, 这样一个小众的论坛居然还有 UWP 实在难得, 之前一直上不去主岛, 只能上备胎岛, 上周突然就可以了, 这段时间逛了一下发现还是挺有意思的, 尤其是里面的「姐妹 1」板块 (°∀。)<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>.</p>
+<p>​		学校期中考之后要开足球赛, 名曰「校长杯」——结果被牪牪阳称为「穿林打叶」杯. 和自己班的人一起踢感觉会好很多, 配合之类的也应该会比其他队默契一些吧 😎. 总之还是希望能拿个前一点的名次.</p>
+<p>​		物理考试得了 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>93</mn></mrow><annotation encoding="application/x-tex">93</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">9</span><span class="mord">3</span></span></span></span> 分 (不犯傻可以 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>100</mn></mrow><annotation encoding="application/x-tex">100</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span></span></span></span> 的!); 算学考试 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>89</mn></mrow><annotation encoding="application/x-tex">89</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">8</span><span class="mord">9</span></span></span></span> 分, 选择题扣了 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>20</mn></mrow><annotation encoding="application/x-tex">20</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">0</span></span></span></span> 分就很不爽. 下次得小心一点, 算学必须要考好些才对得起数竞生的称号!</p>
+<p>​		去图书馆借阅了李贽所著《藏书》, 目前看到光武帝. 古书还是更适合竖排繁体旧字形, 而且此书之注也很好, 有一种「有人陪我一起在看」的感觉. 目前仔细看了项羽、刘邦和王莽转, 最敬佩的当然还是项王了<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup>.</p>
+<p>​		有人<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup> 推荐了一个可以进行公式交流的即时通讯应用 Element, 但是我用 SSR 进不去, 用小手电却可以.</p>
+<p>​		今天就先写到这里如何.</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>仓库找不到了 (°∀。). <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>这个表情就是 A 岛里边的. <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>李贽注: 真好漢, 真英雄! <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p>知乎问题「文字交流涉及公式好麻烦。为啥没有开发出一种可以支持 <code>Markdown</code> 或者 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>LaTeX</mtext></mrow><annotation encoding="application/x-tex">\rm\LaTeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord"><span class="mord text"><span class="mord textrm">L</span><span class="mspace" style="margin-right:-0.36em;"></span><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.68333em;"><span style="top:-2.904999em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord text"><span class="mord textrm sizing reset-size6 size3">A</span></span></span></span></span></span><span class="mspace" style="margin-right:-0.15em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord text"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span></span></span> 编辑的聊天 app？」下 <a href="https://www.zhihu.com/question/387454495/answer/1802341503">杨某某的回答</a>. <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://oreo-king.github.io/post/shi-zi-jie-xin-ren-zhi-bei/">
+              <h3 class="post-title">
+                下一篇：十字街新人指北
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
+  <div class="slogan">(°∀。)</div>
+  <div class="social-container">
+    
+      
+        <a href="https://github.com/Oreo-King" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+        <a href="https://www.zhihu.com/people/zheng-ban-ao-li-ao" target="_blank">
+          <i class="fab fa-zhihu"></i>
+        </a>
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://oreo-king.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '1c3f5d0bdf662fa86846',
+        clientSecret: '577b2f3193ab8ef64fe9c427500865b0a5232743',
+        repo: 'oreo-king.github.io',
+        owner: 'Oreo-King',
+        admin: ['Oreo-King'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>
